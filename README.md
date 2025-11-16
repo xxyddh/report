@@ -28,7 +28,7 @@ Main training pipeline with attention mask annealing and shift operation.
 - **Model**: GPT-2 (124M)
 - **Training**: 10 epochs with progressive attention annealing (10,000 steps)
 - **Features**: Shift operation enabled, checkpoint saving
-- **Runtime**: ~1-2 hours on RTX 5090
+  
 
 ### 2. `shift_comparison_training_optimized__1_.ipynb`
 
@@ -37,7 +37,7 @@ Ablation study comparing training with vs. without shift operation.
 - **Comparison**: Two models trained in parallel
 - **Training**: 1 epoch on subset of data
 - **Output**: Comparative statistics and loss curves
-- **Runtime**: ~1-2 minutes on RTX 5090
+
 
 ### 3. `diffusion_galactica_complete__2___1_.ipynb`
 
@@ -46,7 +46,7 @@ Adaptation of Galactica model (specialized for scientific text).
 - **Model**: Galactica-125M
 - **Training**: 3 epochs on ArXiv papers
 - **Features**: Numerical stability checks, best model saving
-- **Runtime**: ~15-20 minutes on RTX 5090
+
 
 ## Usage
 
